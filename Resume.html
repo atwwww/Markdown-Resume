@@ -414,20 +414,15 @@ code {
 <h3 id="%E5%9F%BA%E4%BA%8E%E6%98%9F%E8%BD%BD%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9Fspaceos%E7%9A%84cc%E6%A0%87%E5%87%86%E5%BA%93%E5%BC%80%E5%8F%91">基于星载操作系统SpaceOS的C/C++标准库开发</h3>
 <p><strong>合作单位：</strong> 北京控制工程研究所星载计算机与电子产品研制中心</p>
 <p><strong>项目内容：</strong> 基于星载操作系统SpaceOS、嵌入式编译器arm-none-eabi-gcc开发C/C++标准库，提高操作系统编码效率与语言兼容性，助力国产航天操作系统发展。</p>
-<p><strong>项目难点：</strong></p>
-<ul>
-<li>RTOS操作系统实现原理；</li>
-<li>C/C++对应标准涵盖内容，编译器内部C/C++标准库构建方式；</li>
-<li>编译器、C/C++标准库、操作系统三者的耦合关系。</li>
-</ul>
+<p><strong>项目难点：</strong> RTOS操作系统实现原理；C/C++标准涵盖内容及构建方式；编译器、C/C++标准库、操作系统耦合关系。</p>
 <p><strong>负责工作：</strong></p>
 <ul>
 <li>项目技术负责人（共6人），总体维护代码仓库；</li>
 <li>调研RTOS多任务并发实现原理、系统移植方法、C/C++标准库符号覆盖机制；</li>
-<li>主导项目组通过ISO的C99、C++11标准文件整合标准库模块，<strong>分模块产出共计35000+字文档</strong>；</li>
-<li>制定C/C++特性总体实现方案，<strong>产出20000+字开发设计方案报告</strong>。</li>
+<li>主导项目组通过ISO的C99、C++11标准文件整合标准库模块，<strong>共计产出文档35000+字</strong>；</li>
+<li>制定C/C++特性总体实现方案，<strong>产出开发设计方案报告20000+字</strong>；</li>
 <li>在FreeRTOS上实现原型系统，<strong>主要负责实现C++11多线程支持</strong>，如&lt;thread&gt;、&lt;atomic&gt;模块等；</li>
-<li>对shared_ptr、weak_ptr引用计数线程安全性进行深入研究并实现。利用emutls实现C/C++中TLS的模拟。</li>
+<li>对shared_ptr、weak_ptr引用计数的线程安全性进行深入研究并实现。利用emutls实现C/C++中TLS的模拟。</li>
 </ul>
 </li>
 <li>
@@ -436,9 +431,9 @@ code {
 <p><strong>项目内容：</strong> 基于openGauss数据库内核开发，新增或兼容MySQL若干（共计39个）日期处理函数，增强国产数据库兼容性。</p>
 <p><strong>项目难点：</strong></p>
 <ul>
-<li>与原有函数功能产生冲突时，需要做好相关类型数据库实现隔离，如last_day函数在openGauss和MySQL实现不一致；</li>
-<li>openGauss与MySQL函数构建机制不同带来的多返回值类型问题，如str_to_date能够根据不同逻辑返回date、time、datetime等不同类型；</li>
-<li>openGauss与MySQL日期类型底层实现不一致带来的函数特征点实现问题，如在不同模式下返回null值。</li>
+<li>函数功能冲突隔离，如last_day函数在openGauss和MySQL实现不一致；</li>
+<li>多返回值类型问题，如str_to_date能够根据不同逻辑返回date、time、datetime等不同类型；</li>
+<li>数据库日期类型底层实现不一致导致的函数功能点实现问题，如在不同模式下返回null值。</li>
 </ul>
 <p><strong>负责工作：</strong></p>
 <ul>
@@ -464,9 +459,10 @@ code {
 <h2 id="img-src%22assetsbriefcase-solidsvg%22-width%2230px%22-%E8%8D%A3%E8%AA%89%E8%AF%81%E4%B9%A6"><img src="assets/briefcase-solid.svg" width="30px"> 荣誉/证书</h2>
 <ul>
 <li><strong>2023</strong> 鲲鹏应用创新大赛2023全国总决赛-铜奖</li>
-<li><strong>2023</strong> 校二等奖学金</li>
+<li><strong>2023</strong> 研究生学业奖学金二等奖</li>
 <li><strong>2022</strong> 华为开源贡献精英奖学金</li>
-<li><strong>2018-2022</strong> 国家励志奖学金若干</li>
+<li><strong>2022</strong> 研究生学业奖学金一等奖</li>
+<li><strong>2018-2021</strong> 国家励志奖学金若干</li>
 <li>英语六级</li>
 </ul>
 
