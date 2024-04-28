@@ -398,7 +398,7 @@ code {
 <ul>
 <li>熟悉C、C++编程语言，熟悉STL下常见容器底层数据结构。了解Java、Python、SQL等；</li>
 <li>熟悉OSI七层模型，掌握HTTP、TCP/UDP、IP等常见协议；</li>
-<li>熟悉openGauss数据库内核数据类型构建原理。了解MySQL、openGauss、PostgreSQL等国内外主流数据库的使用；</li>
+<li>熟悉openGauss数据库内核数据类型构建原理。了解MySQL、openGauss数据库的使用；</li>
 <li>熟悉linux环境下常用命令及相关工具的使用（gcc、gdb、vim、git等）；</li>
 <li>熟悉嵌入式RTOS在arm架构上的移植方法。RTOS的任务构建、多任务并发、多任务同步的底层原理；</li>
 <li>熟悉POSIX线程模型及其在RTOS上的实现原理；</li>
@@ -423,11 +423,11 @@ code {
 <p><strong>负责工作：</strong></p>
 <ul>
 <li>项目技术主要负责人（共6人），总体维护代码仓库；</li>
-<li>调研RTOS多任务并发实现原理，系统移植方法，调研嵌入式编译器标准库符号覆盖机制；</li>
-<li>主导项目组通过ISO的C99、C++11标准文件整合语言标准库模块，<strong>分模块产出共计35000+字文档</strong>；</li>
-<li>制定总体实现计划，<strong>产出20000+字开发设计方案报告</strong>。</li>
+<li>调研RTOS多任务并发实现原理、系统移植方法、C/C++标准库符号覆盖机制；</li>
+<li>主导项目组通过ISO的C99、C++11标准文件整合标准库模块，<strong>分模块产出共计35000+字文档</strong>；</li>
+<li>制定C/C++特性总体实现方案，<strong>产出20000+字开发设计方案报告</strong>。</li>
 <li>在FreeRTOS上实现原型系统，<strong>主要负责实现C++11多线程支持</strong>，如&lt;thread&gt;、&lt;atomic&gt;模块等；</li>
-<li>对shared_ptr、weak_ptr引用计数线程安全性进行深入研究并实现，利用emutls实现C/C++中TLS的模拟。</li>
+<li>对shared_ptr、weak_ptr引用计数线程安全性进行深入研究并实现。利用emutls实现C/C++中TLS的模拟。</li>
 </ul>
 </li>
 <li>
@@ -436,17 +436,17 @@ code {
 <p><strong>项目内容：</strong> 基于openGauss数据库内核开发，新增或兼容MySQL若干（共计39个）日期处理函数，增强国产数据库兼容性。</p>
 <p><strong>项目难点：</strong></p>
 <ul>
-<li>与原有函数功能产生冲突时，需要做好相关类型数据库实现隔离，如last_day函数openGauss和MySQL实现不一致；</li>
-<li>openGauss与MySQL函数构建机制不同带来的多返回值类型问题，如str_to_date能够根据不同逻辑返回data、time、datetime等不同类型；</li>
+<li>与原有函数功能产生冲突时，需要做好相关类型数据库实现隔离，如last_day函数在openGauss和MySQL实现不一致；</li>
+<li>openGauss与MySQL函数构建机制不同带来的多返回值类型问题，如str_to_date能够根据不同逻辑返回date、time、datetime等不同类型；</li>
 <li>openGauss与MySQL日期类型底层实现不一致带来的函数特征点实现问题，如在不同模式下返回null值。</li>
 </ul>
 <p><strong>负责工作：</strong></p>
 <ul>
 <li>项目技术主要负责人（共3人），总体维护本地代码仓库；</li>
 <li>调研openGauss数据库日期类型系统构建原理，内核函数实现机制；</li>
-<li>深度调研MySQL文档，对任务需求中MySQL日期处理函数分类，<strong>设计文档累计85000+字</strong>；</li>
+<li>深度调研MySQL文档，对任务需求中MySQL日期处理函数分类，<strong>函数设计文档累计85000+字</strong>；</li>
 <li>负责本地仓库与openGauss开源社区之间的PR管理，<strong>累计提交函数说明文档+代码=29个</strong>；</li>
-<li>函数功能点测试、性能对比测试。90%性能优异，10%基本和MySQL持平。使用火焰图分析函数调用中的性能瓶颈问题。</li>
+<li>函数功能、性能测试。使用火焰图分析函数调用中的性能瓶颈问题。</li>
 </ul>
 </li>
 </ul>
