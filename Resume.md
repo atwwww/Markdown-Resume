@@ -21,7 +21,7 @@
  ## <img src="assets/info-circle-solid.svg" width="30px"> 个人信息 
 
  - 性别：男
- - 求职意向：操作系统开发工程师
+ - **求职意向：操作系统开发工程师**
 
 ## <img src="assets/graduation-cap-solid.svg" width="30px"> 教育经历
 
