@@ -44,7 +44,7 @@
 
 ## <img src="assets/project-diagram-solid.svg" width="30px"> 项目经历
 
-- ### 基于星载操作系统SpaceOS的C/C++标准库开发
+- ### **基于星载操作系统SpaceOS的C/C++标准库开发**
 
     **合作单位：** 北京控制工程研究所星载计算机与电子产品研制中心
 
@@ -60,7 +60,7 @@
     - 在FreeRTOS上实现原型系统，**主要负责实现C++11多线程支持**，如\<thread\>、\<atomic\>模块等；
     - 对shared_ptr、weak_ptr引用计数的线程安全性进行深入研究并实现。利用emutls实现C/C++中TLS的模拟。
 
-- ### openGauss实现或兼容MySQL日期处理函数开发合作项目
+- ### **openGauss实现或兼容MySQL日期处理函数开发合作项目**
 
     **合作单位：** 华为技术有限公司
 
