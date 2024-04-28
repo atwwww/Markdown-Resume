@@ -80,8 +80,8 @@
 
 ## <img src="assets/github-brands.svg" width="30px"> 开源经历
 
-- openGauss开源社区贡献者，累计提交29+PR；
-- RT-Thread社区开源贡献者：
+- **openGauss开源社区**贡献者，累计提交29+PR；
+- **RT-Thread开源社区**贡献者：
   - 添加GCC泛化原子操作函数
   - 修复POSIX线程本地存储寻找POSIX线程句柄时的逻辑错误
   - 修复C++11 thread_local对象析构函数与实际内存释放动作顺序相反问题
