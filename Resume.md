@@ -85,14 +85,14 @@
 
 - openGauss开源社区贡献者，累计提交29+PR；
 - RT-Thread社区开源贡献者：
-  - <a href="https://github.com/RT-Thread/rt-thread/pull/8648">添加GCC泛化原子操作函数</a>
-  - <a href="https://github.com/RT-Thread/rt-thread/pull/8790">修复POSIX线程本地存储寻找POSIX线程句柄时的逻辑错误</a>
-  - <a href="https://github.com/RT-Thread/rt-thread/pull/8802">修复C++11 thread_local对象析构函数与实际内存释放动作顺序相反问题</a>
+  - 添加GCC泛化原子操作函数
+  - 修复POSIX线程本地存储寻找POSIX线程句柄时的逻辑错误
+  - 修复C++11 thread_local对象析构函数与实际内存释放动作顺序相反问题
 
 ## <img src="assets/briefcase-solid.svg" width="30px"> 荣誉/证书
 
-- **2023** <a href="https://www.hikunpeng.com/developer/contests/kunpeng-competition2023?tab=2">鲲鹏应用创新大赛2023全国总决赛-铜奖</a>
+- **2023** 鲲鹏应用创新大赛2023全国总决赛-铜奖
 - **2023** 校二等奖学金
-- **2022** <a href="https://edu.hicomputing.huawei.com/openeuler-opengauss-talent/award">华为开源贡献精英奖学金</a>
+- **2022** 华为开源贡献精英奖学金
 - **2018-2022** 国家励志奖学金若干
 - 英语六级
