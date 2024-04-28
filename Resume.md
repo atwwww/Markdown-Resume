@@ -80,7 +80,7 @@
 
 ## <img src="assets/github-brands.svg" width="30px"> 开源经历
 
-- **openGauss开源社区**贡献者，累计提交29+PR；
+- **openGauss开源社区**贡献者，累计提交29个PR；
 - **RT-Thread开源社区**贡献者：
   - 添加GCC泛化原子操作函数
   - 修复POSIX线程本地存储寻找POSIX线程句柄时的逻辑错误
